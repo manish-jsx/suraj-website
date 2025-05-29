@@ -1,8 +1,104 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+/* Blurred gradient overlays */
+.gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+  pointer-events: none;
+}
+
+/* Custom cursor styles */
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+
+.custom-cursor.active {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.2);
+  mix-blend-mode: difference;
+}
+
+/* Cinematic aspect ratio containers */
+.aspect-cinema {
+  aspect-ratio: 2.35 / 1;
+}
+
+/* Masked text effect */
+.masked-text {
+  background-image: linear-gradient(45deg, #f09, #0ff);
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Image hover effects */
+.hover-zoom {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Disable blue highlight on mobile tap */
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @theme inline {
@@ -23,4 +119,253 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Animation Styles */
+.nav-circle {
+  transition: fill 0.3s, stroke 0.3s;
+}
+
+.nav-circle:hover {
+  stroke: #F59E0B;
+}
+
+/* Page transition effects */
+.page-transition-wrapper {
+  position: relative;
+  opacity: 0;
+}
+
+/* Mobile nav link hover effect */
+.mobile-nav-link {
+  position: relative;
+}
+
+.mobile-nav-link:after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #F59E0B;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.mobile-nav-link:hover:after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* Film grain animation for video players */
+.film-grain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('/images/textures/film-grain.png');
+  animation: filmGrain 0.5s steps(4) infinite;
+  opacity: 0.5;
+}
+
+@keyframes filmGrain {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(1%, 1%); }
+  50% { transform: translate(0, 1%); }
+  75% { transform: translate(1%, 0); }
+}
+
+/* Cinematic text animations */
+.reveal-text {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: revealText 1s ease forwards;
+}
+
+@keyframes revealText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Cinematic loading animation */
+.cinema-loader {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.cinema-loader:before {
+  content: '';
+  width: 60px;
+  height: 6px;
+  background: #F59E0B;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow 0.5s linear infinite;
+}
+
+.cinema-loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #F59E0B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: cineLoader 0.5s linear infinite;
+}
+
+@keyframes cineLoader {
+  17% {
+    border-bottom-right-radius: 3px;
+  }
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+  50% {
+    transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow {
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply px-6 py-3 bg-amber-500 hover:bg-amber-600 text-black font-medium rounded-full transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-900;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.6);
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-transparent border-2 border-white/30 hover:border-white text-white font-medium rounded-full transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-gray-900;
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-lg {
+  @apply px-8 py-4 text-lg;
+}
+
+/* Shadow Glow Effect */
+.shadow-glow {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.6);
+}
+
+/* Feature Cards */
+.feature-card {
+  @apply flex flex-col p-6 bg-gray-800/50 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300;
+}
+
+.feature-icon {
+  @apply w-12 h-12 bg-amber-500/20 text-amber-500 rounded-full flex items-center justify-center mb-4;
+}
+
+/* Cinematic Loader */
+.cinematic-loader-container {
+  @apply fixed inset-0 flex items-center justify-center bg-black z-50;
+}
+
+.cinematic-loader {
+  @apply relative w-24 h-24;
+}
+
+.film-reel {
+  @apply w-full h-full rounded-full border-4 border-t-amber-500 border-gray-700 animate-spin;
+  position: relative;
+}
+
+.film-reel:before {
+  content: "";
+  @apply absolute w-4 h-4 bg-gray-700 rounded-full;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.film-reel:after {
+  content: "";
+  @apply absolute w-full h-full rounded-full;
+  border: 2px dashed theme('colors.gray.700');
+  top: 0;
+  left: 0;
+  animation: counter-spin 8s linear infinite;
+}
+
+.loading-text {
+  @apply absolute bottom-0 left-1/2 -translate-x-1/2 text-gray-400 text-sm mt-4 font-mono;
+  white-space: nowrap;
+}
+
+@keyframes counter-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+/* Film Reel Loader */
+.film-reel-loader {
+  @apply w-16 h-16 rounded-full border-4 border-t-amber-500 border-gray-700 animate-spin;
+}
+
+/* Hero Section */
+.hero-title span {
+  @apply relative inline-block;
+}
+
+.hero-title span:after {
+  content: '';
+  @apply absolute -bottom-2 left-0 w-full h-1 bg-amber-500;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease;
+}
+
+.hero-title:hover span:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Testimonial Slider */
+.testimonial-card {
+  @apply bg-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-500;
+}
+
+.testimonial-quote {
+  @apply relative text-gray-300 mb-6;
+}
+
+.testimonial-quote:before {
+  content: '"';
+  @apply absolute -top-8 -left-4 text-6xl text-amber-500/30 font-serif;
+}
+
+/* Project Modal Animation */
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 }

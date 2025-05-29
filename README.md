@@ -1,3 +1,21 @@
+# Suraj Kumar Singh - Cinematographer Portfolio
+
+A professional portfolio website showcasing the work of cinematographer Suraj Kumar Singh.
+
+## Features
+- Responsive design optimized for all devices
+- Project showcase with detailed case studies
+- Workshop and event booking system
+- Interactive experiments section
+- Blog with enhanced typography
+- Contact form and social media integration
+
+## Tech Stack
+- Next.js
+- TailwindCSS
+- GSAP for animations
+- Framer Motion
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

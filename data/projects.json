@@ -1,0 +1,190 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Echoes of Silence",
+      "slug": "echoes-of-silence",
+      "description": "A feature film exploring themes of isolation and connection through the story of a composer losing their hearing. Shot on ARRI Alexa with vintage anamorphic lenses.",
+      "categories": ["Feature Film", "Drama"],
+      "mainImage": "/images/projects/echoes-silence-main.jpg",
+      "year": 2022,
+      "client": "Horizon Pictures",
+      "role": "Director of Photography",
+      "featured": true,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "gallery": [
+        "/images/projects/echoes-silence-1.jpg",
+        "/images/projects/echoes-silence-2.jpg",
+        "/images/projects/echoes-silence-3.jpg",
+        "/images/projects/echoes-silence-4.jpg"
+      ],
+      "awards": [
+        "Best Cinematography, Independent Film Festival",
+        "Official Selection, Toronto International Film Festival"
+      ],
+      "technicalApproach": "<p>For 'Echoes of Silence,' I developed a visual language that evolved with the protagonist's hearing loss. We began with vibrant, warm compositions with rich ambient sound, progressively moving toward cooler, more isolated frames with increasing sound design abstraction.</p><p>The film was shot on ARRI Alexa Mini with Cooke anamorphics, chosen for their gentle rendering of skin tones and subtle edge characteristics. As the story progressed, we gradually introduced more diffusion filters and practical lens effects to visually represent the character's changing relationship with sound.</p><p>Lighting setups transitioned from naturalistic, multi-source arrangements in early scenes to more stark, high-contrast lighting with pronounced shadows as the character's isolation grew. This lighting evolution was paired with a deliberate camera movement strategy—from fluid, reactive movements to increasingly locked-off, static compositions.</p>"
+    },
+    {
+      "id": "proj-002",
+      "title": "Boundless",
+      "slug": "boundless",
+      "description": "A documentary following extreme athletes as they push human limitations across the world's most challenging environments, from desert ultramarathons to high-altitude climbing.",
+      "categories": ["Documentary", "Sports"],
+      "mainImage": "/images/projects/boundless-main.jpg",
+      "year": 2023,
+      "client": "Summit Media",
+      "role": "Director of Photography",
+      "featured": true,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "gallery": [
+        "/images/projects/boundless-1.jpg",
+        "/images/projects/boundless-2.jpg",
+        "/images/projects/boundless-3.jpg",
+        "/images/projects/boundless-4.jpg"
+      ],
+      "awards": [
+        "Best Documentary Cinematography, Adventure Film Festival",
+        "Audience Choice Award, Mountain Film Festival"
+      ],
+      "technicalApproach": "<p>Shooting 'Boundless' presented unique challenges, requiring equipment that could withstand extreme environments while remaining lightweight and portable. Our primary package included the Sony FX9 for its exceptional low-light capabilities and dynamic range, complemented by a RED Komodo for high-speed sequences.</p><p>For the desert ultramarathon segments, we developed a custom rain-cover modified with reflective material to protect equipment from both sand and extreme heat. Drone work utilized the DJI Inspire 2 with the X7 camera, allowing us to capture the vast scale of landscapes while maintaining image quality consistent with our ground package.</p><p>The high-altitude sequences required special consideration for battery performance and equipment reliability in sub-zero temperatures. We kept batteries in insulated pouches close to the body and developed a rotation system to ensure continuous shooting capability.</p>"
+    },
+    {
+      "id": "proj-003",
+      "title": "Luminescence",
+      "slug": "luminescence",
+      "description": "A commercial campaign for a luxury watch brand, focusing on the interplay between light, precision engineering, and timeless design.",
+      "categories": ["Commercial", "Luxury"],
+      "mainImage": "/images/projects/luminescence-main.jpg",
+      "year": 2023,
+      "client": "Chrono Luxury Watches",
+      "role": "Cinematographer",
+      "featured": true,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "gallery": [
+        "/images/projects/luminescence-1.jpg",
+        "/images/projects/luminescence-2.jpg",
+        "/images/projects/luminescence-3.jpg"
+      ],
+      "awards": [
+        "Silver Award, Advertising Cinematography",
+        "Finalist, Commercial Cinematography Awards"
+      ],
+      "technicalApproach": "<p>The 'Luminescence' campaign required an approach that showcased the intricate craftsmanship of luxury timepieces while creating an emotional connection through light and movement. We shot on the RED Monstro 8K VV sensor with Leica Thalia primes to capture the finest details with painterly bokeh.</p><p>Our lighting approach drew inspiration from Renaissance paintings, using precisely controlled hard light sources to create specular highlights on the watch mechanisms, complemented by large soft sources for elegant modeling on faces and environments.</p><p>For the macro work, we utilized a custom-built probe lens system with motorized precision control, allowing for smooth movements through the watch mechanisms while maintaining perfect focus. Motion control systems ensured repeatable camera movements for composite shots where we combined live-action with VFX elements.</p>"
+    },
+    {
+      "id": "proj-004",
+      "title": "Neon Rhythms",
+      "slug": "neon-rhythms",
+      "description": "A music video exploring urban nightlife through stylized visuals and choreographed sequences, featuring bold color palettes and innovative lighting techniques.",
+      "categories": ["Music Video"],
+      "mainImage": "/images/projects/neon-rhythms-main.jpg",
+      "year": 2022,
+      "client": "Electro Wave Records",
+      "role": "Director of Photography",
+      "featured": false,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "gallery": [
+        "/images/projects/neon-rhythms-1.jpg",
+        "/images/projects/neon-rhythms-2.jpg",
+        "/images/projects/neon-rhythms-3.jpg"
+      ],
+      "awards": [
+        "Best Cinematography, Music Video Awards"
+      ],
+      "technicalApproach": "<p>For 'Neon Rhythms,' we developed a lighting design that synchronized with the music's beat and energy, using programmable RGB LED systems that responded to audio input in real-time. This created a dynamic visual environment where lighting shifts were precisely timed to musical transitions.</p><p>Shooting on the Sony Venice with Zeiss Supreme Primes gave us exceptional color science and low-light performance for the nightclub environments. We embraced flares, light leaks, and prismatic effects as part of the visual language, often shooting through textured glass and custom-made filters.</p><p>Camera movement was choreographed as carefully as the dancers, utilizing a combination of Steadicam for fluid movement through spaces and a MōVI Pro gimbal mounted on a OneWheel for unique tracking shots that matched the energy of the music.</p>"
+    },
+    {
+      "id": "proj-005",
+      "title": "Forged in Fire",
+      "slug": "forged-in-fire",
+      "description": "A short documentary following traditional blacksmiths as they preserve ancient metalworking techniques in the modern world.",
+      "categories": ["Documentary", "Short Film"],
+      "mainImage": "/images/projects/forged-fire-main.jpg",
+      "year": 2021,
+      "client": "Artisan Heritage Foundation",
+      "role": "Director of Photography",
+      "featured": false,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "gallery": [
+        "/images/projects/forged-fire-1.jpg",
+        "/images/projects/forged-fire-2.jpg",
+        "/images/projects/forged-fire-3.jpg"
+      ],
+      "awards": [
+        "Best Short Documentary, Craft Film Festival",
+        "Excellence in Visual Storytelling Award"
+      ],
+      "technicalApproach": "<p>Capturing the intense environment of traditional blacksmithing required a thoughtful approach to exposure and heat management. We utilized the ARRI Alexa Mini LF for its robust dynamic range, which was essential for managing the extreme contrast between the dark forge environment and the incandescent glow of heated metal.</p><p>Lighting was minimal and motivated, primarily utilizing the natural light of fire and complemented with carefully placed LED panels to fill shadows while maintaining authenticity. Custom heat shields were fabricated to protect equipment during close-up sequences of metal forging.</p><p>For the interview segments, we created lighting that mimicked the forge environment but allowed for proper exposure of faces, using a combination of warm practical lights and carefully diffused hard sources to recreate the quality of firelight.</p>"
+    },
+    {
+      "id": "proj-006",
+      "title": "Ethereal Depths",
+      "slug": "ethereal-depths",
+      "description": "An experimental underwater film exploring the otherworldly environments of coral reefs and deep ocean ecosystems using specialized equipment and lighting techniques.",
+      "categories": ["Experimental", "Nature"],
+      "mainImage": "/images/projects/ethereal-depths-main.jpg",
+      "year": 2022,
+      "client": "Ocean Conservation Institute",
+      "role": "Underwater Cinematographer",
+      "featured": false,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      "gallery": [
+        "/images/projects/ethereal-depths-1.jpg",
+        "/images/projects/ethereal-depths-2.jpg",
+        "/images/projects/ethereal-depths-3.jpg",
+        "/images/projects/ethereal-depths-4.jpg"
+      ],
+      "awards": [
+        "Innovation in Cinematography Award",
+        "Best Experimental Film, Environmental Film Festival"
+      ],
+      "technicalApproach": "<p>Underwater cinematography for 'Ethereal Depths' required specialized equipment and techniques. We used the RED Gemini in a Gates underwater housing, chosen for its exceptional low-light performance and dynamic range—critical for capturing the subtle luminescence of deep-water creatures.</p><p>Custom-built underwater lighting rigs were developed with marine biologists to ensure minimal impact on sensitive ecosystems. These included adjustable color temperature LED arrays that could be quickly modified based on depth and water conditions.</p><p>For macro sequences of coral polyps and small marine organisms, we developed a specialized underwater probe lens system with depth-compensating focus controls. Most challenging were the transition shots moving from underwater to above the surface, which required perfect synchronization between waterproof and traditional camera systems.</p>"
+    },
+    {
+      "id": "proj-007",
+      "title": "Whispers of the City",
+      "slug": "whispers-of-the-city",
+      "description": "A character-driven drama following interconnected lives in a bustling metropolis, employing intimate camera work and location lighting to capture authentic urban experiences.",
+      "categories": ["Feature Film", "Drama"],
+      "mainImage": "/images/projects/whispers-city-main.jpg",
+      "year": 2021,
+      "client": "Urban Stories Productions",
+      "role": "Director of Photography",
+      "featured": true,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "gallery": [
+        "/images/projects/whispers-city-1.jpg",
+        "/images/projects/whispers-city-2.jpg",
+        "/images/projects/whispers-city-3.jpg"
+      ],
+      "awards": [
+        "Best Cinematography, Independent Drama Awards",
+        "Special Jury Prize, Urban Film Festival"
+      ],
+      "technicalApproach": "<p>For 'Whispers of the City,' we developed a visual approach that balanced planned precision with documentary spontaneity. Shooting on the ARRI Alexa Mini with vintage Super Speeds allowed us to maintain a small footprint while achieving a slightly textured, organic look that complemented the story's themes.</p><p>We embraced the city as a character itself, allowing practical location lighting to drive our visual approach, supplemented with minimal equipment that our small crew could quickly adapt. This often meant using battery-powered LED panels, practical practicals, and reflectors rather than traditional large lighting setups.</p><p>Camera movement philosophy centered on character emotion—handheld for moments of instability or transition, steadicam for determined movement, and carefully motivated static shots for moments of clarity or resolution. This systematic approach to movement created a visual grammar that subtly reinforced character arcs throughout the narrative.</p>"
+    },
+    {
+      "id": "proj-008",
+      "title": "Quantum Visions",
+      "slug": "quantum-visions",
+      "description": "A science visualization project translating complex quantum physics concepts into visually compelling sequences through a combination of practical effects and precision CGI integration.",
+      "categories": ["Educational", "Science"],
+      "mainImage": "/images/projects/quantum-visions-main.jpg",
+      "year": 2023,
+      "client": "National Science Foundation",
+      "role": "Visual Director",
+      "featured": false,
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "gallery": [
+        "/images/projects/quantum-visions-1.jpg",
+        "/images/projects/quantum-visions-2.jpg",
+        "/images/projects/quantum-visions-3.jpg"
+      ],
+      "awards": [
+        "Scientific Visualization Award",
+        "Best Educational Media, Science Communication Awards"
+      ],
+      "technicalApproach": "<p>Visualizing quantum physics concepts required a novel approach blending practical cinematography with precision CGI integration. Working closely with physicists, we developed a visual language that was both scientifically accurate and visually compelling for non-specialist audiences.</p><p>For practical elements, we utilized a combination of macro photography, high-speed Phantom camera work, and practical fluid dynamics captured at 1000fps. These organic elements provided the foundation for digital extensions created by our VFX team.</p><p>Camera tracking was essential for seamless integration of CGI quantum visualizations. We utilized the Motion Control Robotics Bolt X camera system for precisely repeatable movements, allowing us to capture clean plates and technical passes that gave our VFX artists perfect match-move data.</p>"
+    }
+  ]
+}

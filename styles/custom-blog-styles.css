@@ -1,0 +1,115 @@
+/* Custom Blog Styles */
+
+/* Enhanced reading experience */
+.enhanced-typography {
+  --text-base-size: 1.125rem;  /* 18px */
+  --text-scale-ratio: 1.2;
+  --text-line-height: 1.6;
+  --heading-line-height: 1.3;
+}
+
+/* Unique callout boxes for blog */
+.callout {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.callout::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.callout-tip {
+  background-color: rgba(6, 78, 59, 0.1);
+}
+
+.callout-tip::before {
+  background-color: #10b981;
+}
+
+.callout-note {
+  background-color: rgba(30, 64, 175, 0.1);
+}
+
+.callout-note::before {
+  background-color: #3b82f6;
+}
+
+.callout-warning {
+  background-color: rgba(194, 65, 12, 0.1);
+}
+
+.callout-warning::before {
+  background-color: #f97316;
+}
+
+/* Code block styling */
+pre {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* Image captions */
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Pull quotes */
+.pull-quote {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  border-left: 4px solid #f59e0b;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #f59e0b;
+}
+
+/* Improved list styling */
+.custom-list {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+.custom-list li {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.custom-list li::before {
+  content: "→";
+  color: #f59e0b;
+  position: absolute;
+  left: -1.5rem;
+}

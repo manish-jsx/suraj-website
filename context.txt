@@ -1,0 +1,64 @@
+Mobile first website
+---
+
+## Visual and Brand Experience Prompts
+
+- **Design a homepage that visually represents your unique cinematic vision** using abstract, animated graphics—think flowing light, lens flares, or film reel motifs that evoke creativity and storytelling.
+- **Use dynamic, non-traditional layouts** that let your work expand, stack, or transition in organic, cinematic ways—avoid standard grids and let your portfolio breathe.
+- **Incorporate a bold, cinematic color palette** with gradients, deep shadows, and motion effects to create an immersive, movie-like experience.
+- **Showcase your brand identity** with a strong logo, signature color, and a consistent visual motif that reflects your style as a cinematographer.
+
+---
+
+## Functionality and User Experience Prompts
+
+- **Build an interactive portfolio** where visitors can explore your showreels, behind-the-scenes footage, and project galleries with smooth transitions and hover effects.
+- **Integrate AI-driven recommendations**—suggest similar projects, genres, or collaborations based on what visitors view or interact with.
+- **Offer a “Director’s Cut” dashboard** where clients can log in to review drafts, leave timestamped feedback, and download final files securely.
+- **Enable seamless booking and inquiry forms** with calendar integration for scheduling meetings, shoots, or consultations.
+
+---
+
+## Accessibility and Inclusivity Prompts
+
+- **Ensure accessibility for all users**: provide keyboard navigation, high-contrast modes, and video captions/subtitles for all showreels and interviews.
+- **Optimize for mobile devices** so your cinematic work looks stunning on any screen, with touch-friendly navigation and fast load times.
+
+---
+
+## Feature and Innovation Prompts
+
+- **Add interactive 3D or VR elements**—let visitors explore a virtual set, view 360-degree footage, or experience immersive behind-the-scenes tours.
+- **Use microinteractions and motion design** to guide attention—subtle camera pans, zooms, or parallax effects as users scroll through your work.
+- **Highlight awards, film festival selections, and testimonials** with animated badges or spotlight sections.
+- **Create a blog or insights section** where you share your creative process, gear reviews, or industry tips, establishing yourself as an authority.
+
+---
+
+## Storytelling and Trust-Building Prompts
+
+- **Feature client testimonials and filmmaker endorsements** with video snippets or stylized quote cards.
+- **Showcase your impact** using before-and-after color grading sliders, project timelines, or interactive case studies.
+- **Include a “My Journey” timeline**—an animated, scrollable story of your career milestones, collaborations, and standout projects.
+
+---
+
+## Example Prompt List for Your Team or AI Tools
+
+1. "Design a homepage that uses animated light and film-inspired motifs to represent the art of cinematography."
+2. "Develop an interactive portfolio where users can seamlessly view, filter, and experience showreels and behind-the-scenes content."
+3. "Integrate an AI-powered project recommender that suggests similar works or collaborations based on user interest."
+4. "Build a secure client dashboard for reviewing footage, giving feedback, and downloading final edits."
+5. "Implement a booking system with calendar integration for easy scheduling of shoots and consultations."
+6. "Ensure the website is fully accessible, with captions for all videos, keyboard navigation, and mobile optimization."
+7. "Add interactive storytelling elements, such as a career timeline and before-and-after project showcases."
+8. "Incorporate microinteractions—like parallax scrolling and subtle motion effects—to enhance the cinematic feel."
+9. "Highlight awards, testimonials, and festival selections with animated badges and spotlight sections."
+10. "Create a blog section where you share insights, behind-the-scenes stories, and industry expertise."
+
+---
+
+These prompts will help you create a visually stunning, innovative, and user-friendly website that truly showcases your talent and vision as a cinematographer—setting you apart in a memorable, futuristic way!
+
+---
+Answer from Perplexity: pplx.ai/share

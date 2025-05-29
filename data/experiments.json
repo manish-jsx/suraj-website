@@ -1,0 +1,291 @@
+{
+  "experiments": [
+    {
+      "id": "exp-001",
+      "title": "Diffraction Lighting: Prismatic Storytelling",
+      "slug": "diffraction-lighting-prismatic-storytelling",
+      "excerpt": "Exploring how light diffraction through prisms and custom glass elements can create dynamic, emotional lighting effects for narrative scenes.",
+      "description": "<p>This experiment explores the narrative potential of light diffraction as a storytelling device rather than just a visual effect. By channeling light through custom-designed prismatic elements, I created a lighting language where spectral separation metaphorically represents emotional states and character relationships.</p><p>Unlike traditional prism photography, this approach integrates diffraction into dramatic lighting setups for narrative scenes. Key to this experiment was developing specific prismatic tools that provide control over where and how the spectral colors fall, allowing precise emotional targeting rather than random effects.</p><p>The experiment culminated in a short drama where a character's internal fragmentation is visualized through increasingly separated spectral lighting as their mental state deteriorates. As the character finds resolution, the light gradually recomposes into pure white.</p>",
+      "date": "2023-09-15",
+      "techniques": [
+        "Custom prismatic lighting modifiers",
+        "Split-beam light paths",
+        "Selective spectrum isolation",
+        "Gradient diffraction mapping",
+        "Atmospheric haze interaction"
+      ],
+      "equipment": [
+        "Custom-ground acrylic prisms",
+        "Modified fresnel lights",
+        "Specially developed filter holder system",
+        "Smoke and haze machines",
+        "ARRI Alexa Mini with Zeiss Supreme Primes"
+      ],
+      "results": "The experiment demonstrated that prismatic lighting can move beyond mere visual spectacle to become an emotionally resonant storytelling tool. The most effective applications combined subtle diffraction elements with conventional lighting rather than using diffraction as the primary source. The technique proved particularly powerful for subjective perspectives, dream sequences, and visualizing psychological transitions.",
+      "images": [
+        "/images/experiments/diffraction/main.jpg",
+        "/images/experiments/diffraction/setup.jpg",
+        "/images/experiments/diffraction/result1.jpg",
+        "/images/experiments/diffraction/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/diffraction-lighting-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Elena Petrova",
+          "role": "Optical Engineer"
+        },
+        {
+          "name": "Marcus Lee",
+          "role": "Gaffer"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "exp-002",
+      "title": "Projection Mapping as Character Illumination",
+      "slug": "projection-mapping-character-illumination",
+      "excerpt": "Using real-time projection mapping to create dynamic, responsive lighting that interacts with actors' performances and movements.",
+      "description": "<p>This experimental technique merges projection mapping technology with traditional film lighting to create character illumination that dynamically responds to performance. Rather than static lighting setups, this approach uses calibrated projectors as light sources, capable of tracking actors and adjusting illumination patterns based on movement, dialogue cues, or emotional beats.</p><p>The system employs motion tracking cameras that feed position data to a real-time rendering engine, which then generates lighting patterns projected precisely onto performers and environments. This creates the possibility for light that seems to have awareness—brightening during revelations, shifting color with emotional changes, or creating patterns that respond to character relationships.</p><p>I tested this technique in a dramatic two-person scene where the lighting subtly transforms throughout the conversation, reflecting the power dynamics and emotional states without obvious visual effects. The goal was creating lighting that feels motivated and natural while actually being technically complex and performance-responsive.</p>",
+      "date": "2023-06-22",
+      "techniques": [
+        "Real-time performance tracking",
+        "Dynamic projection mapping",
+        "Lighting automation programming",
+        "Interactive lighting masks",
+        "Calibrated color blending"
+      ],
+      "equipment": [
+        "4K short throw projectors",
+        "OptiTrack motion capture system",
+        "Disguise media server",
+        "Blackmagic URSA Mini Pro 12K",
+        "Custom mapping software"
+      ],
+      "results": "The experiment demonstrated that projection-based dynamic lighting can create subtle but powerful emotional cues that conventional lighting cannot achieve. The most successful applications were those where the technology remained invisible to viewers—creating lighting that felt motivated but contained impossible subtleties. The technique proved especially valuable for scenes with shifting power dynamics or emotional revelations.",
+      "images": [
+        "/images/experiments/projection/main.jpg",
+        "/images/experiments/projection/setup.jpg",
+        "/images/experiments/projection/result1.jpg",
+        "/images/experiments/projection/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/projection-mapping-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Sophia Chen",
+          "role": "Projection Designer"
+        },
+        {
+          "name": "David Rivera",
+          "role": "Software Engineer"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "exp-003",
+      "title": "Macro Cinematography: The Unseen World",
+      "slug": "macro-cinematography-unseen-world",
+      "excerpt": "Pushing the boundaries of extreme macro cinematography to reveal texture, movement, and emotion in the microscopic realm.",
+      "description": "<p>This experimental project explores the narrative potential of extreme macro cinematography beyond scientific documentation. Using custom-built lens systems and specialized motion control, I created sequences that reveal the emotional and textural dimensions of the microscopic world, finding drama and visual poetry in scales rarely seen in narrative filmmaking.</p><p>The technical challenge centered on developing camera systems capable of both extreme magnification and cinematic movement. This required custom lens adaptations, specialized focusing systems, and precision motion control rigs to enable dolly moves measured in micrometers rather than inches.</p><p>Unlike static scientific macro photography, this experiment focused on creating emotional journeys through textural landscapes—following waterdrops' paths across hydrophobic surfaces, capturing the crystallization of salt in real-time, and documenting the micro-expressions of human skin responding to emotion.</p>",
+      "date": "2023-04-10",
+      "techniques": [
+        "Focus stacking for motion pictures",
+        "Microscope lens adaptation",
+        "Micro-motion control programming",
+        "Specialized macro lighting",
+        "Breathing compensation algorithms"
+      ],
+      "equipment": [
+        "Custom-modified microscope objectives",
+        "Motorized micromanipulator stage",
+        "RED Komodo with extension tubes",
+        "Custom LED lighting array",
+        "Specialized macro focusing rails"
+      ],
+      "results": "The experiment produced footage that bridges scientific documentation and emotional cinematography. The most compelling sequences created disorientation through scale ambiguity—scenes that could be cosmic or microscopic. The techniques proved particularly valuable for title sequences, transitional moments, and subjective perspectives that pull viewers into unfamiliar sensory experiences.",
+      "images": [
+        "/images/experiments/macro/main.jpg",
+        "/images/experiments/macro/setup.jpg",
+        "/images/experiments/macro/result1.jpg",
+        "/images/experiments/macro/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/macro-cinematography-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Dr. Helen Kim",
+          "role": "Microscopy Specialist"
+        },
+        {
+          "name": "Thomas Wright",
+          "role": "Motion Control Programmer"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "exp-004",
+      "title": "Volumetric Capture for Immersive Cinematography",
+      "slug": "volumetric-capture-immersive-cinematography",
+      "excerpt": "Exploring how volumetric capture technology can create new forms of immersive storytelling that blend traditional cinematography with spatial freedom.",
+      "description": "<p>This experiment investigates the narrative potential of volumetric capture—recording performances as three-dimensional data rather than flat images—and how it can be integrated with traditional cinematographic approaches. Rather than using this technology for VR or AR purposes, I focused on how it enables new forms of cinematic storytelling for conventional viewing.</p><p>Using a multi-camera volumetric stage, we captured performances that could then be reframed, relighted, and moved around virtually in post-production. This enabled techniques like impossibly smooth transitions between camera perspectives, after-the-fact camera movements, lighting adjustments based on developing narratives, and seamless integration of multiple performances.</p><p>The experiment centered on a dialogue scene captured volumetrically, then reinterpreted through multiple cinematic approaches—from classical shot/reverse-shot to experimental single-take perspectives that would be physically impossible to capture conventionally.</p>",
+      "date": "2023-10-02",
+      "techniques": [
+        "Volumetric performance capture",
+        "Virtual camera operation",
+        "Post-capture lighting manipulation",
+        "3D space compositing",
+        "Performance preservation across iterations"
+      ],
+      "equipment": [
+        "32-camera volumetric capture stage",
+        "Depth sensors array",
+        "Point cloud processing software",
+        "Virtual production toolkit",
+        "Real-time rendering engine"
+      ],
+      "results": "The experiment demonstrated that volumetric capture creates unique storytelling possibilities that bridge traditional filmmaking and digital innovation. The ability to separate the moment of performance from camera and lighting decisions opened new creative avenues, particularly for scenes requiring emotional intimacy paired with impossible camera perspectives. The technique proved most effective when used selectively rather than throughout an entire production.",
+      "images": [
+        "/images/experiments/volumetric/main.jpg",
+        "/images/experiments/volumetric/setup.jpg",
+        "/images/experiments/volumetric/result1.jpg",
+        "/images/experiments/volumetric/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/volumetric-capture-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Amir Khalid",
+          "role": "Volumetric Capture Technician"
+        },
+        {
+          "name": "Julia Santos",
+          "role": "Virtual Cinematographer"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "exp-005",
+      "title": "Analog Texture Integration in Digital Workflows",
+      "slug": "analog-texture-integration-digital-workflows",
+      "excerpt": "Developing techniques to seamlessly incorporate organic analog film textures into digital cinematography pipelines.",
+      "description": "<p>This experiment explores methodologies for authentically integrating analog film characteristics into digital workflows without relying on post-production filters or overlays. Rather than simply applying film grain or LUTs to digital footage, I developed capture techniques that introduce genuine analog elements at various points in the imaging chain.</p><p>The approach involved several distinct processes: capturing through vintage glass but recording digitally, creating custom optical relay systems that pass digital images through analog film stocks in real-time, building practical aperture masks and light modulators, and developing hybrid development processes for selective analog printing of digital source material.</p><p>The experiment culminated in a comparative study of five different analog integration techniques applied to identical scenes, evaluating how each affected perceived emotional response, texture quality, and overall image authenticity.</p>",
+      "date": "2023-07-19",
+      "techniques": [
+        "Custom optical relay systems",
+        "Hybrid analog-digital exposure",
+        "Vintage lens adaptation for modern sensors",
+        "Physical light modulation tools",
+        "Selective analog printing"
+      ],
+      "equipment": [
+        "Vintage anamorphic projection lenses",
+        "Digital cinema camera with raw output",
+        "Custom optical bench setup",
+        "Film scanning system with wet gate",
+        "Projection film stocks (various ASA ratings)"
+      ],
+      "results": "The experiment revealed that the most successful analog integration happened when introducing optical characteristics during image formation rather than in post-production. Particularly effective was the optical relay system that passed digital images through analog film elements before reaching the sensor. This created authentic halation, grain structure, and flare characteristics impossible to replicate with digital filters, while maintaining the control and flexibility of digital capture.",
+      "images": [
+        "/images/experiments/analog/main.jpg",
+        "/images/experiments/analog/setup.jpg",
+        "/images/experiments/analog/result1.jpg",
+        "/images/experiments/analog/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/analog-texture-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Richard Torres",
+          "role": "Film Stock Specialist"
+        },
+        {
+          "name": "Maya Liu",
+          "role": "Optical Engineer"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "exp-006",
+      "title": "Environmental Reactive Lighting Systems",
+      "slug": "environmental-reactive-lighting-systems",
+      "excerpt": "Creating dynamic lighting setups that automatically respond to environmental factors, performance energy, and sound design elements.",
+      "description": "<p>This experimental project develops lighting systems that respond organically to various real-time inputs, creating environments that feel alive and reactive rather than pre-programmed. The core innovation is a custom-built system that integrates environmental sensors, performance metrics, and audio analysis to modulate lighting parameters dynamically during filming.</p><p>The system captures data from multiple sources: environmental sensors tracking temperature, air movement, and ambient light changes; biometric inputs monitoring performers' physical states; spatial positioning data; and real-time audio frequency analysis. This data feeds into a custom lighting control algorithm that adjusts intensity, color, movement, and diffusion patterns across networked lighting instruments.</p><p>I tested this approach in both controlled studio environments and unpredictable outdoor locations, developing different parameter sets for narrative versus documentary applications. The goal was creating lighting that feels naturally motivated but possesses subtle responsiveness impossible with traditional static lighting approaches.</p>",
+      "date": "2023-05-28",
+      "techniques": [
+        "Multi-parameter environmental sensing",
+        "Audio-reactive lighting programming",
+        "Performer biometric integration",
+        "Dynamic color temperature adaptation",
+        "Machine learning lighting prediction"
+      ],
+      "equipment": [
+        "Custom sensor array package",
+        "DMX-enabled RGB lighting instruments",
+        "Central processing unit with proprietary software",
+        "Wireless DMX transmission system",
+        "Sony Venice with metadata integration"
+      ],
+      "results": "The experiment demonstrated that reactive lighting can create a heightened sense of immersion and emotional connection when subtle enough to avoid drawing attention to the technology. The audio-reactive components proved especially effective for scenes with musical performances or heightened emotional exchanges. The system's ability to gradually adapt color temperature to match environmental changes created a natural quality difficult to achieve with traditional lighting approaches, particularly for day-to-night transitions in documentary settings.",
+      "images": [
+        "/images/experiments/reactive/main.jpg",
+        "/images/experiments/reactive/setup.jpg",
+        "/images/experiments/reactive/result1.jpg",
+        "/images/experiments/reactive/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/reactive-lighting-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Carlos Mendez",
+          "role": "Systems Engineer"
+        },
+        {
+          "name": "Laura Zhang",
+          "role": "Lighting Designer"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "exp-007",
+      "title": "Subtractive Cinematography: The Power of Absence",
+      "slug": "subtractive-cinematography-power-absence",
+      "excerpt": "Exploring visual storytelling through deliberate removal of visual elements, controlled absence, and negative space.",
+      "description": "<p>This conceptual experiment investigates how the systematic removal of visual information can create more powerful cinematic experiences than additive approaches. Drawing inspiration from minimalist art and negative space photography, I developed a methodology I call \"subtractive cinematography\"—focusing on what is deliberately excluded from the frame rather than what is included.</p><p>The experiment involved creating a series of narrative sequences using progressive subtraction: beginning with conventional coverage, then methodically removing elements—starting with background detail, then color information, then movement, and finally portions of the subject themselves—until reaching the minimum visual information necessary to convey the emotional core of the scene.</p><p>For each sequence, we tested multiple subtraction approaches: physical (removing actual elements from the set), optical (using specialized lenses and filters), compositional (framing to exclude), and post-production (selective removal of elements). The goal was identifying at which point reduction created maximum emotional impact without losing narrative clarity.</p>",
+      "date": "2023-08-14",
+      "techniques": [
+        "Minimalist composition theory",
+        "Selective focus isolation",
+        "Negative space storytelling",
+        "Light subtraction methodologies",
+        "Visual information thresholding"
+      ],
+      "equipment": [
+        "Custom-built selective masking system",
+        "Specialized vignetting tools",
+        "Modified lens set with aperture control",
+        "Black muslin 20x20' backdrop system",
+        "RED Komodo with modified firmware"
+      ],
+      "results": "The experiment revealed that subtractive approaches often created more emotional engagement than additive ones, particularly for scenes involving isolation, loss, or psychological focus. The most powerful technique proved to be selective sound/image disassociation combined with extreme isolation of visual elements. We discovered a specific threshold where removing approximately 70% of conventional visual information actually increased audience emotional response and recall of key narrative moments.",
+      "images": [
+        "/images/experiments/subtractive/main.jpg",
+        "/images/experiments/subtractive/setup.jpg",
+        "/images/experiments/subtractive/result1.jpg",
+        "/images/experiments/subtractive/result2.jpg"
+      ],
+      "videoUrl": "/videos/experiments/subtractive-cinematography-demo.mp4",
+      "collaborators": [
+        {
+          "name": "Eliza Monroe",
+          "role": "Minimalist Art Consultant"
+        },
+        {
+          "name": "Sanjay Patel",
+          "role": "Perception Researcher"
+        }
+      ],
+      "featured": true
+    }
+  ]
+}

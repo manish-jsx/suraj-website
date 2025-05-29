@@ -3,22 +3,43 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "security-fix": "npm audit fix --force"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "@sanity/client": "^6.4.12",
+    "@sanity/icons": "^3.7.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.90.0",
+    "canvas": "^3.1.0",
+    "d3": "^7.8.5",
+    "gsap": "^3.12.2",
+    "lenis": "^1.0.27",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "next": "^14.0.0",
+    "next-sanity": "^9.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.90.0",
+    "split-type": "^0.3.4",
+    "styled-components": "^6.1.18",
+    "three": "^0.159.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "glob": "^9.3.5"
+  },
+  "resolutions": {
+    "glob": "^9.3.5"
   }
 }
